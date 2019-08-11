@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
+    margin: 0;
+ 
+}
+
+.header{
+
+    background-color: white;
+    width: 300px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    font-family: 'poppins';
+    border-radius: 5px 5px 5px 5px;
+    position: fixed;
+    left: calc(50% - 150px);
+    top: 0;
+
+    
+   
+}
+
+
+.header nav{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+
+
+}
+
+.header a{
+    
+    color: black;
+    transition: 0.2 color;
+
+}
+
+.header a::after{
+    
+    color: black;
+    transition: 0.2 color;
+    top: 0;
+
+}
+
+.header a:hover{
+    
+    color: #2eca2f;
+
+}
+
+
+.header i{
+    
+    font-size: 19px;
+
+}
+
+.section{
+
+    margin-top: 100px;
+}
+
+
+
+
